@@ -76,7 +76,12 @@
                                 <p>Café de mundo,<br>alma de barrio</p>
                             </div>
                             <div class="col-md-6 col-sm-12 animate-box" data-animate-effect="fadeInLeft">
-                            	<span>El café que usamos es grano seleccionado de Oaxaca preparado por baristas especializados. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua elit.</span>
+                            	<span>Somos de aquí: Café de Barrio, Café de
+                  Especialidad y Café de Paso, 100%
+                            Mexicano. Utilizamos granos seleccionados
+cuidadosamente en conjunto con algunos de
+los mejores tostadores de la ciudad para
+llevar a tu taza el mejor café.</span>
                             </div>
                             <div class="col-md-6 col-sm-12 animate-box text-center rotatecontainer" data-animate-effect="fadeInRight">
                             	<rotate class="img-rotate1 animate-box" data-animate-effect="flipInY" style="background:url('<?PHP echo base_url('assets/images/icon-smiley.png') ?>')"></rotate>
