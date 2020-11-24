@@ -1,0 +1,182 @@
+/* --
+CSS Reseter
+CSSLab Â© 2010 by Jorge EpuÃ±an
+http://www.csslab.cl/2010/06/01/css-reseter-v2/
+-- */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, dialog, figure, header, footer, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+}
+
+article, aside, nav, section, dialog, figure, header, footer, hgroup { 
+    display:block;
+}
+
+legend {
+	display:none;
+}
+
+:focus {
+	outline: 0;
+}
+
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+a img, iframe {
+	border: none;
+}
+
+ul {
+	list-style: none;
+}
+
+input, textarea, select, button {
+	font-size: 100%;
+	font-family: inherit;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+select {
+	margin: inherit;
+}
+
+button {
+	border: 0;
+	padding: 0;
+	background: transparent;
+	cursor: pointer;
+}
+
+/* Fixes incorrect placement of numbers in ol's in IE6/7 */
+ol { margin-left:2em; }
+
+
+/* ========================================= clearfix == */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+
+
+@font-face {
+    font-family: 'HBold';
+    src: url('helveticaneue-webfont.eot');
+    src: url('helveticaneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneue-webfont.woff') format('woff'),
+         url('helveticaneue-webfont.ttf') format('truetype'),
+         url('helveticaneue-webfont.svg#HelveticaNeueBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'HReg';
+    src: url('helveticaneuelight-webfont.eot');
+    src: url('helveticaneuelight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneuelight-webfont.woff') format('woff'),
+         url('helveticaneuelight-webfont.ttf') format('truetype'),
+         url('helveticaneuelight-webfont.svg#HelveticaNeueLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OBold';
+    src: url('OswaldBold.eot');
+    src: url('OswaldBold.eot') format('embedded-opentype'),
+         url('OswaldBold.woff2') format('woff2'),
+         url('OswaldBold.woff') format('woff'),
+         url('OswaldBold.ttf') format('truetype'),
+         url('OswaldBold.svg#OswaldBold') format('svg');
+}
+
+@font-face {
+    font-family: 'OLight';
+    src: url('OswaldLight.eot');
+    src: url('OswaldLight.eot') format('embedded-opentype'),
+         url('OswaldLight.woff2') format('woff2'),
+         url('OswaldLight.woff') format('woff'),
+         url('OswaldLight.ttf') format('truetype'),
+         url('OswaldLight.svg#OswaldLight') format('svg');
+}
+
+@font-face {
+    font-family: 'OReg';
+    src: url('oswald-regular.eot');
+    src: url('oswald-regular.eot') format('embedded-opentype'),
+         url('oswald-regular.woff') format('woff'),
+         url('oswald-regular.ttf') format('truetype'),
+         url('oswald-regular.svg#OswaldBook') format('svg');
+}
+
+
+@font-face {
+    font-family: 'Rbold';
+    src: url('raleway-bold-webfont.eot');
+    src: url('raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-bold-webfont.woff') format('woff'),
+         url('raleway-bold-webfont.ttf') format('truetype'),
+         url('raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Rlight';
+    src: url('raleway-light-webfont.eot');
+    src: url('raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-light-webfont.woff') format('woff'),
+         url('raleway-light-webfont.ttf') format('truetype'),
+         url('raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*
+@font-face {
+    font-family: 'Rlight';
+    src: url('opensans-regular.eot');
+    src: url('opensans-regular.eot') format('embedded-opentype'),
+         url('opensans-regular.woff') format('woff'),
+         url('opensans-regular.ttf') format('truetype'),
+         url('opensans-regular.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'Rbold';
+    src: url('opensans-semibold.eot');
+    src: url('opensans-semibold.eot') format('embedded-opentype'),
+         url('opensans-semibold.woff') format('woff'),
+         url('opensans-semibold.ttf') format('truetype'),
+         url('opensans-semibold.svg#OpenSansSemibold') format('svg');
+}
+*/
